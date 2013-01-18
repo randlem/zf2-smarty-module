@@ -1,0 +1,31 @@
+{
+    "name": "randlem/zf2-smarty-module",
+    "description": "Smarty module for ZF2 MVC applications.",
+	"minimum-stability": "dev",
+    "license": "MIT",
+	"require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.*",
+		"smarty/smarty": ">=3.1.11"
+    }
+	"autoload": {
+		"psr-0": {
+			"Smarty": "src"
+		},
+		"classmap": [
+			"./Module.php"
+		]
+	}
+    "homepage": "http://github.com/randlem/zf2-smarty-module",
+	"authors": [
+		{
+			"name": "Mark Randles",
+			"email": "randlem@gmail.com",
+		}
+	],
+    "keywords": [
+        "framework",
+        "zf2",
+		"smarty"
+    ],
+}
