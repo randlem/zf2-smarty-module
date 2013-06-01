@@ -7,7 +7,7 @@
         "php": ">=5.3.3",
         "zendframework/zendframework": "2.*",
 		"smarty/smarty": ">=3.1.11"
-    }
+    },
 	"autoload": {
 		"psr-0": {
 			"Smarty": "src"
@@ -20,12 +20,12 @@
 	"authors": [
 		{
 			"name": "Mark Randles",
-			"email": "randlem@gmail.com",
+			"email": "randlem@gmail.com"
 		}
 	],
     "keywords": [
         "framework",
         "zf2",
 		"smarty"
-    ],
+    ]
 }
